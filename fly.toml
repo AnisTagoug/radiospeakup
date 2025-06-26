@@ -1,0 +1,16 @@
+app = "radiospeakup"
+
+[build]
+  # Laisse vide si tu utilises juste le Dockerfile
+
+[[services]]
+  internal_port = 8000
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+
+  [[services.ports]]
+    port = 8000
+    handlers = ["http"]
