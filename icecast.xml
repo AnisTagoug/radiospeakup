@@ -72,11 +72,11 @@
           <listen-socket>
             <port>8001</port>
           </listen-socket>
-    <!--
+    
     <listen-socket>
         <port>8080</port>
     </listen-socket>
-    -->
+    
   -->
 
 
