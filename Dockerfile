@@ -20,7 +20,7 @@ RUN chmod +x /home/icecast/start.sh
 # 2) Changer la propriété des fichiers/dossiers (y compris start.sh)
 RUN chown -R icecast:icecast /home/icecast
 
-EXPOSE 8000
+EXPOSE 8080
 
 # 3) Passer à l’utilisateur icecast seulement APRES les opérations ci-dessus
 USER icecast
