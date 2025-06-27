@@ -1,4 +1,4 @@
-live = input.http("http://localhost:8000/live") # écoute source live
+live = input.http("http://localhost:8080/live") # écoute source live
 
 playlist = playlist("/home/icecast/playlist.txt")
 
