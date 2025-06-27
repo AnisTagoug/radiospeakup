@@ -7,7 +7,7 @@ radio = fallback(track_sensitive=false, [live, playlist, blank()])
 output.icecast(
   %mp3,
   host="localhost",
-  port=8000,
+  port=8080,
   password="speakup",
   mount="/auto",
   name="Radio AutoDJ + Live",
